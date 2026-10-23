@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flenns"
+version = "1.0.0"
+description = "f-LENNS: AI-based super-resolution of functional MRI to 1 mm isotropic"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Shahin Nasr" },
+    { name = "Hongwei Bran Li" },
+    { name = "Matthew S. Rosen" },
+    { name = "Juan Eugenio Iglesias" },
+]
+keywords = ["fMRI", "super-resolution", "MRI", "deep learning", "neuroimaging"]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Medical Science Apps.",
+]
+dependencies = [
+    "torch>=1.10",
+    "numpy>=1.20",
+    "nibabel>=3.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/jeiglesias/f-LENNS"
+Paper = "https://arxiv.org/abs/XXXX.XXXXX"
+
+[project.scripts]
+flenns = "flenns.cli:main"
+
+[tool.setuptools]
+packages = ["flenns"]

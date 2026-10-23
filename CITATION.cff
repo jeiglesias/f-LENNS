@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use f-LENNS, please cite the preprint below."
+title: "f-LENNS: functional Localization Enhancement via Neural-Net Sharpening"
+abstract: >-
+  AI-based super-resolution of functional MRI to 1 mm isotropic resolution,
+  trained exclusively on domain-randomized synthetic data so that a single
+  pretrained model generalizes across field strengths, pulse sequences,
+  resolutions and experimental paradigms without retraining.
+type: software
+license: CC-BY-NC-SA-4.0
+version: 1.0.0
+repository-code: "https://github.com/jeiglesias/f-LENNS"
+authors:
+  - family-names: Nasr
+    given-names: Shahin
+  - family-names: Li
+    given-names: Hongwei Bran
+  - family-names: Rosen
+    given-names: Matthew S.
+  - family-names: Iglesias
+    given-names: Juan Eugenio
+preferred-citation:
+  type: article
+  title: >-
+    Accessing Mesoscale Functional Organization from Standard Functional MRI
+    Leveraging AI-Based Super-Resolution
+  authors:
+    - family-names: Nasr
+      given-names: Shahin
+    - family-names: Li
+      given-names: Hongwei Bran
+    - family-names: Rosen
+      given-names: Matthew S.
+    - family-names: Iglesias
+      given-names: Juan Eugenio
+  year: 2026
+  journal: "arXiv preprint"
+  # TODO: replace with the real arXiv identifier once the preprint is posted
+  notes: "arXiv:XXXX.XXXXX"
+  url: "https://arxiv.org/abs/XXXX.XXXXX"
