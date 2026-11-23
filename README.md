@@ -2,12 +2,12 @@
 
 **f**unctional **L**ocalization **E**nhancement via **N**eural-**N**et **S**harpening — AI-based super-resolution of functional MRI to 1 mm isotropic resolution.
 
-[![Paper](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
+[![Paper](https://img.shields.io/badge/biorXiv-2026.11-b31b1b.svg)](https://www.biorxiv.org/content/10.64898/2026.11.07.765069v1)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 
 f-LENNS takes a conventional-resolution fMRI scan (3D or 4D NIfTI/MGZ) and produces a 1 mm isotropic version of it, recovering mesoscale functional organization that is normally accessible only with ultra-high-field scanners and long acquisitions. A **single pretrained model** works across field strengths (3T and 7T), pulse sequences (including BOLD and VASO), voxel sizes, and experimental paradigms — **no retraining, fine-tuning, or parameter tuning**.
 
-> **Paper:** Nasr S., Li H.B., Rosen M.S., Iglesias J.E. *Accessing Mesoscale Functional Organization from Standard Functional MRI Leveraging AI-Based Super-Resolution.* arXiv:XXXX.XXXXX (placeholder — the preprint has not been posted yet).
+> **Paper:** Nasr S., Li H.B., Rosen M.S., Iglesias J.E. *Accessing Mesoscale Functional Organization from Standard Functional MRI Leveraging AI-Based Super-Resolution.* bioRxiv:https://www.biorxiv.org/content/10.64898/2026.11.07.765069v1.
 
 <p align="center">
   <img src="docs/figure3_mesoscale_patches.png" width="820" alt="f-LENNS recovers mesoscale functional patches in early visual cortex">
